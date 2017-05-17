@@ -66,7 +66,7 @@ public class RequestCall {
            callback.onBefore(request);
        }
        //TODO
-       OkHttpUtils.getInstance().execute()
+       OkHttpUtils.getInstance().execute();
    }
     private Request generateRequest(Callback callBack) {
         return okHttpRequest.generateRequest(callBack);
